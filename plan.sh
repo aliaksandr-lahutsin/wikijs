@@ -1,6 +1,10 @@
 pkg_name=wiki
 pkg_origin=custom
-pkg_version="1.0.0"
+pkg_version="1.0.1"
+
+pkg_svc_user="root"
+pkg_svc_group="root"
+
 pkg_deps=(
     core/mongodb
     core/node
@@ -12,5 +16,5 @@ do_build() {
 }
 
 do_install() {
-  echo
+  return 0
 }

@@ -1,1 +1,27 @@
+
+echo ==================================================================
+echo
+echo Init hook
+echo
+pwd
+esho
+ls -l
+echo SVC_CONFIG_PATH:
+cd {{pkg.svc_config_path}}
+echo PWD {{pkg.svc_config_path}}
+pwd
+echo
+cd {{pkg.svc_config_path}}
+echo PWD {{pkg.svc_config_path}}
+pwd
+echo
+ls {{pkg.svc_config_path}}
+echo SVC_PATH
+ls {{pkg.svc_path}
+echo
+echo Cat Custom Config
+cat {{pkg.svc_config_path}}/config.yaml
+echo
 ln -vsf {{pkg.svc_config_path}}/config.yaml {{pkg.svc_path}}/config.yml
+echo
+echo ==================================================================
