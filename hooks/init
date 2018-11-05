@@ -1,0 +1,1 @@
+ln -vsf {{pkg.svc_config_path}}/config.yaml {{pkg.svc_path}}/config.yml

@@ -1,0 +1,5 @@
+#!/bin/sh
+
+cd {{ pkg.path }} 
+sudo node wiki start
+2>&1
