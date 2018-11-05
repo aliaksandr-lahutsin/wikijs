@@ -13,6 +13,7 @@ pkg_deps=(
 
 do_build() {
   curl -sSo- https://wiki.js.org/install.sh | bash
+  pwd
 }
 
 do_install() {
